@@ -1,6 +1,6 @@
 services:
   api:
-    container_name: patient-api
+    container_name: book-api
     build:
       context: .
       dockerfile: Dockerfile
@@ -16,7 +16,7 @@ services:
       SPRING_JPA_SHOW_SQL: ${SPRING_JPA_SHOW_SQL:-true}
 
   db:
-    container_name: patient-db
+    container_name: book-db
     image: postgres:15
     environment:
       POSTGRES_DB: ${POSTGRES_DB:-postgres}
