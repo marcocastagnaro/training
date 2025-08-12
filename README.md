@@ -4,21 +4,35 @@
 This project is part of the Backend Training program. For detailed instructions and requirements, please visit:
 **[Training Backend - Books Catalog](https://www.notion.so/Training-Backend-Cat-logo-de-libros-247138f44582802cb144c0945897f4ff)**
 
-## 🔄 How to Fork and Run This Project
+## Prerequisites
 
-### 1. Fork the repository
+- [Java] 21
+- [Gradle] 
+- [Docker](https://www.docker.com/get-started)
+- [Docker compose](https://docs.docker.com/compose/install/)
 
-Go to [https://github.com/marcocastagnaro/training](https://github.com/marcocastagnaro/training) and click the **"Fork"** button at the top right.
+
+### 1. clone the repository
+
+Go to [https://github.com/marcocastagnaro/training](https://github.com/marcocastagnaro/training) and click the **"Clone"** button at the top right. Then choose HTTPS and copy the url.
 
 ---
 
-### 2. Clone your fork locally
-
-Replace `<your-username>` with your GitHub username:
+Use the following command to clone the repository to your local machine, replacing `<your-username>` with your GitHub username:
 
 ```bash
-git clone https://github.com/<your-username>/training.git
+git clone <repository-url>
 cd training
+```
+
+### 2. Create a new branch
+
+Create a new branch for your changes. Use the following formart for the branch name: training/<surname>
+
+do this by running the following command in your terminal:
+
+```bash
+git checkout -b training/<surname>
 ```
 
 

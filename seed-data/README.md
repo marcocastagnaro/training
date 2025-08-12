@@ -83,13 +83,14 @@ List<Book> books = objectMapper.readValue(
 
 ## 📊 Sample Book Structure
 Each book in the JSON has this structure (note: no ID field, it will be auto-generated):
+
 ```json
 {
   "title": "The Great Gatsby",
-  "author": "F. Scott Fitzgerald", 
-  "year": 1925,
+  "author": "F. Scott Fitzgerald",
+  "publicationYear": 1925,
   "genre": "Fiction",
-  "isAvailable": true,
+  "is_available": true,
   "language": "English",
   "pages": 180
 }
