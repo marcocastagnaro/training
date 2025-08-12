@@ -2,7 +2,7 @@
   {
     "title": "The Great Gatsby",
     "author": "F. Scott Fitzgerald",
-    "year": 1925,
+    "publicationYear": 1925,
     "genre": "Fiction",
     "isAvailable": true,
     "language": "English",
@@ -11,7 +11,7 @@
   {
     "title": "To Kill a Mockingbird",
     "author": "Harper Lee",
-    "year": 1960,
+    "publicationYear": 1960,
     "genre": "Fiction",
     "isAvailable": true,
     "language": "English",
@@ -20,7 +20,7 @@
   {
     "title": "1984",
     "author": "George Orwell",
-    "year": 1949,
+    "publicationYear": 1949,
     "genre": "Science Fiction",
     "isAvailable": false,
     "language": "English",
@@ -29,7 +29,7 @@
   {
     "title": "Pride and Prejudice",
     "author": "Jane Austen",
-    "year": 1813,
+    "publicationYear": 1813,
     "genre": "Romance",
     "isAvailable": true,
     "language": "English",
@@ -38,7 +38,7 @@
   {
     "title": "The Hobbit",
     "author": "J.R.R. Tolkien",
-    "year": 1937,
+    "publicationYear": 1937,
     "genre": "Fantasy",
     "isAvailable": true,
     "language": "English",
@@ -47,7 +47,7 @@
   {
     "title": "The Catcher in the Rye",
     "author": "J.D. Salinger",
-    "year": 1951,
+    "publicationYear": 1951,
     "genre": "Fiction",
     "isAvailable": false,
     "language": "English",
@@ -56,7 +56,7 @@
   {
     "title": "Lord of the Flies",
     "author": "William Golding",
-    "year": 1954,
+    "publicationYear": 1954,
     "genre": "Fiction",
     "isAvailable": true,
     "language": "English",
@@ -65,7 +65,7 @@
   {
     "title": "Animal Farm",
     "author": "George Orwell",
-    "year": 1945,
+    "publicationYear": 1945,
     "genre": "Political Fiction",
     "isAvailable": true,
     "language": "English",
@@ -74,7 +74,7 @@
   {    
     "title": "The Lord of the Rings",
     "author": "J.R.R. Tolkien",
-    "year": 1954,
+    "publicationYear": 1954,
     "genre": "Fantasy",
     "isAvailable": true,
     "language": "English",
@@ -83,7 +83,7 @@
   {    
     "title": "Brave New World",
     "author": "Aldous Huxley",
-    "year": 1932,
+    "publicationYear": 1932,
     "genre": "Science Fiction",
     "isAvailable": false,
     "language": "English",
@@ -92,7 +92,7 @@
   {  
     "title": "Don Quixote",
     "author": "Miguel de Cervantes",
-    "year": 1605,
+    "publicationYear": 1605,
     "genre": "Adventure",
     "isAvailable": true,
     "language": "Spanish",
@@ -101,7 +101,7 @@
   {
     "title": "The Divine Comedy",
     "author": "Dante Alighieri",
-    "year": 1320,
+    "publicationYear": 1320,
     "genre": "Poetry",
     "isAvailable": true,
     "language": "Italian",
@@ -110,7 +110,7 @@
   {
     "title": "War and Peace",
     "author": "Leo Tolstoy",
-    "year": 1869,
+    "publicationYear": 1869,
     "genre": "Historical Fiction",
     "isAvailable": true,
     "language": "Russian",
@@ -119,7 +119,7 @@
   {
     "title": "The Brothers Karamazov",
     "author": "Fyodor Dostoevsky",
-    "year": 1880,
+    "publicationYear": 1880,
     "genre": "Philosophical Fiction",
     "isAvailable": false,
     "language": "Russian",
@@ -128,7 +128,7 @@
   {    
     "title": "Madame Bovary",
     "author": "Gustave Flaubert",
-    "year": 1857,
+    "publicationYear": 1857,
     "genre": "Realism",
     "isAvailable": true,
     "language": "French",
@@ -137,7 +137,7 @@
   {    
     "title": "The Alchemist",
     "author": "Paulo Coelho",
-    "year": 1988,
+    "publicationYear": 1988,
     "genre": "Fantasy",
     "isAvailable": true,
     "language": "Portuguese",
@@ -146,7 +146,7 @@
   {  
     "title": "One Hundred Years of Solitude",
     "author": "Gabriel García Márquez",
-    "year": 1967,
+    "publicationYear": 1967,
     "genre": "Magical Realism",
     "isAvailable": true,
     "language": "Spanish",
@@ -155,7 +155,7 @@
   {    
     "title": "The Little Prince",
     "author": "Antoine de Saint-Exupéry",
-    "year": 1943,
+    "publicationYear": 1943,
     "genre": "Children's Literature",
     "isAvailable": true,
     "language": "French",
@@ -164,7 +164,7 @@
   { 
     "title": "The Name of the Rose",
     "author": "Umberto Eco",
-    "year": 1980,
+    "publicationYear": 1980,
     "genre": "Historical Fiction",
     "isAvailable": false,
     "language": "Italian",
@@ -173,7 +173,7 @@
   { 
     "title": "The Shadow of the Wind",
     "author": "Carlos Ruiz Zafón",
-    "year": 2001,
+    "publicationYear": 2001,
     "genre": "Mystery",
     "isAvailable": true,
     "language": "Spanish",
@@ -182,7 +182,7 @@
   { 
     "title": "The Kite Runner",
     "author": "Khaled Hosseini",
-    "year": 2003,
+    "publicationYear": 2003,
     "genre": "Fiction",
     "isAvailable": true,
     "language": "English",
@@ -191,7 +191,7 @@
   { 
     "title": "Life of Pi",
     "author": "Yann Martel",
-    "year": 2001,
+    "publicationYear": 2001,
     "genre": "Adventure",
     "isAvailable": true,
     "language": "English",
@@ -200,7 +200,7 @@
   { 
     "title": "The Book Thief",
     "author": "Markus Zusak",
-    "year": 2005,
+    "publicationYear": 2005,
     "genre": "Historical Fiction",
     "isAvailable": false,
     "language": "English",
@@ -209,7 +209,7 @@
   {
     "title": "The Hunger Games",
     "author": "Suzanne Collins",
-    "year": 2008,
+    "publicationYear": 2008,
     "genre": "Young Adult",
     "isAvailable": true,
     "language": "English",
@@ -218,7 +218,7 @@
   { 
     "title": "The Fault in Our Stars",
     "author": "John Green",
-    "year": 2012,
+    "publicationYear": 2012,
     "genre": "Young Adult",
     "isAvailable": true,
     "language": "English",
@@ -227,7 +227,7 @@
   { 
     "title": "Gone Girl",
     "author": "Gillian Flynn",
-    "year": 2012,
+    "publicationYear": 2012,
     "genre": "Thriller",
     "isAvailable": true,
     "language": "English",
@@ -236,7 +236,7 @@
   {   
     "title": "The Girl on the Train",
     "author": "Paula Hawkins",
-    "year": 2015,
+    "publicationYear": 2015,
     "genre": "Thriller",
     "isAvailable": false,
     "language": "English",
@@ -245,7 +245,7 @@
   {  
     "title": "Big Little Lies",
     "author": "Liane Moriarty",
-    "year": 2014,
+    "publicationYear": 2014,
     "genre": "Fiction",
     "isAvailable": true,
     "language": "English",
@@ -254,7 +254,7 @@
   {  
     "title": "The Martian",
     "author": "Andy Weir",
-    "year": 2011,
+    "publicationYear": 2011,
     "genre": "Science Fiction",
     "isAvailable": true,
     "language": "English",
@@ -263,7 +263,7 @@
   { 
     "title": "Ready Player One",
     "author": "Ernest Cline",
-    "year": 2011,
+    "publicationYear": 2011,
     "genre": "Science Fiction",
     "isAvailable": true,
     "language": "English",
@@ -272,7 +272,7 @@
   { 
     "title": "The Night Circus",
     "author": "Erin Morgenstern",
-    "year": 2011,
+    "publicationYear": 2011,
     "genre": "Fantasy",
     "isAvailable": false,
     "language": "English",
@@ -281,7 +281,7 @@
   {   
     "title": "The Goldfinch",
     "author": "Donna Tartt",
-    "year": 2013,
+    "publicationYear": 2013,
     "genre": "Fiction",
     "isAvailable": true,
     "language": "English",
@@ -290,7 +290,7 @@
   {    
     "title": "All the Light We Cannot See",
     "author": "Anthony Doerr",
-    "year": 2014,
+    "publicationYear": 2014,
     "genre": "Historical Fiction",
     "isAvailable": true,
     "language": "English",
@@ -299,7 +299,7 @@
   {    
     "title": "The Underground Railroad",
     "author": "Colson Whitehead",
-    "year": 2016,
+    "publicationYear": 2016,
     "genre": "Historical Fiction",
     "isAvailable": true,
     "language": "English",
@@ -308,7 +308,7 @@
   {
     "title": "The Handmaid's Tale",
     "author": "Margaret Atwood",
-    "year": 1985,
+    "publicationYear": 1985,
     "genre": "Dystopian",
     "isAvailable": true,
     "language": "English",
@@ -317,7 +317,7 @@
   {
     "title": "The Testaments",
     "author": "Margaret Atwood",
-    "year": 2019,
+    "publicationYear": 2019,
     "genre": "Dystopian",
     "isAvailable": false,
     "language": "English",
@@ -326,7 +326,7 @@
   {
     "title": "Normal People",
     "author": "Sally Rooney",
-    "year": 2018,
+    "publicationYear": 2018,
     "genre": "Fiction",
     "isAvailable": true,
     "language": "English",
@@ -335,7 +335,7 @@
   {
     "title": "Conversations with Friends",
     "author": "Sally Rooney",
-    "year": 2017,
+    "publicationYear": 2017,
     "genre": "Fiction",
     "isAvailable": true,
     "language": "English",
@@ -344,7 +344,7 @@
   {
     "title": "Beauty and the Beast",
     "author": "Gabrielle-Suzanne Barbot de Villeneuve",
-    "year": 1740,
+    "publicationYear": 1740,
     "genre": "Fairy Tale",
     "isAvailable": true,
     "language": "French",
@@ -353,7 +353,7 @@
   {
     "title": "The Three Musketeers",
     "author": "Alexandre Dumas",
-    "year": 1844,
+    "publicationYear": 1844,
     "genre": "Adventure",
     "isAvailable": true,
     "language": "French",
@@ -362,7 +362,7 @@
   {
     "title": "The Count of Monte Cristo",
     "author": "Alexandre Dumas",
-    "year": 1844,
+    "publicationYear": 1844,
     "genre": "Adventure",
     "isAvailable": false,
     "language": "French",
@@ -371,7 +371,7 @@
   {
     "title": "Les Misérables",
     "author": "Victor Hugo",
-    "year": 1862,
+    "publicationYear": 1862,
     "genre": "Historical Fiction",
     "isAvailable": true,
     "language": "French",
@@ -380,7 +380,7 @@
   {
     "title": "The Hunchback of Notre-Dame",
     "author": "Victor Hugo",
-    "year": 1831,
+    "publicationYear": 1831,
     "genre": "Gothic Fiction",
     "isAvailable": true,
     "language": "French",
@@ -389,7 +389,7 @@
   {
     "title": "The Phantom of the Opera",
     "author": "Gaston Leroux",
-    "year": 1910,
+    "publicationYear": 1910,
     "genre": "Gothic Fiction",
     "isAvailable": true,
     "language": "French",
@@ -398,7 +398,7 @@
   {
     "title": "The Stranger",
     "author": "Albert Camus",
-    "year": 1942,
+    "publicationYear": 1942,
     "genre": "Philosophical Fiction",
     "isAvailable": true,
     "language": "French",
@@ -407,7 +407,7 @@
   {
     "title": "The Plague",
     "author": "Albert Camus",
-    "year": 1947,
+    "publicationYear": 1947,
     "genre": "Philosophical Fiction",
     "isAvailable": false,
     "language": "French",
@@ -416,7 +416,7 @@
   {
     "title": "The Little Paris Bookshop",
     "author": "Nina George",
-    "year": 2013,
+    "publicationYear": 2013,
     "genre": "Fiction",
     "isAvailable": true,
     "language": "German",
@@ -426,7 +426,7 @@
 
     "title": "The Book of Lost Things",
     "author": "John Connolly",
-    "year": 2006,
+    "publicationYear": 2006,
     "genre": "Fantasy",
     "isAvailable": true,
     "language": "English",
@@ -435,7 +435,7 @@
   {
     "title": "The Night in Lisbon",
     "author": "Erich Maria Remarque",
-    "year": 1962,
+    "publicationYear": 1962,
     "genre": "War Fiction",
     "isAvailable": true,
     "language": "German",
@@ -444,7 +444,7 @@
   {
     "title": "The Reader",
     "author": "Bernhard Schlink",
-    "year": 1995,
+    "publicationYear": 1995,
     "genre": "Historical Fiction",
     "isAvailable": true,
     "language": "German",
