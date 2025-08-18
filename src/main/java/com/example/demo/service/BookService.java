@@ -10,7 +10,7 @@ public interface BookService {
 
     BookDto findBookById(Long id);
 
-    void createBook(BookDto createBookRequest);
+    BookDto createBook(BookDto createBookRequest);
 
     BookDto toggleAvailability(Long id);
 

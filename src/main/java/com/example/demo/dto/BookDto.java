@@ -30,6 +30,7 @@ public class BookDto {
     @NotBlank(message = "El género es obligatorio")
     private String genre;
 
+    @Builder.Default
     private boolean isAvailable = true;
 
     @NotBlank(message = "El idioma es obligatorio")

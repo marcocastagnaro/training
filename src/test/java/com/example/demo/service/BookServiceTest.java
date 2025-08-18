@@ -15,15 +15,15 @@ public class BookServiceTest {
     @Autowired
     private BookRepository bookRepository;
 
-    BookDto dummyBook = new BookDto(
-            "Dummy book",
-            "Dummy author",
-            1943L,
-            "Dummy genre",
-            true,
-            "Dummy language",
-            96
-    );
+    BookDto dummyBook = BookDto.builder()
+            .title("Dummy book")
+            .author("Dummy author")
+            .publicationYear(1943L)
+            .genre("Dummy genre")
+            .isAvailable(true)
+            .language("Dummy language")
+            .pages(96)
+            .build();
 
     @Test
     public void testCreateBook() {

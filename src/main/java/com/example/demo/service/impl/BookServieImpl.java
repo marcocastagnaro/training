@@ -19,10 +19,11 @@ public class BookServieImpl implements BookService {
     }
 
     @Override
-    public void createBook(BookDto createBookRequest) {
-        Book book = Book.from(createBookRequest);
-        bookRepository.save(book);
+    public BookDto createBook(BookDto req) {
+        Book saved = bookRepository.save(Book.from(req));
+        return BookDto.from(saved);
     }
+
 
     @Override
     public List<BookDto> findAllBooks() {
@@ -51,7 +52,6 @@ public class BookServieImpl implements BookService {
         }
         bookRepository.deleteById(id);
     }
-
 
 
 }

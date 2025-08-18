@@ -19,7 +19,7 @@ public class BookControllerTest {
     @Autowired
     private TestRestTemplate testRestTemplate;
 
-    private final String baseUrl = "/api/book";
+    private final String baseUrl = "/books";
 
     @Test
     void createBook() {
