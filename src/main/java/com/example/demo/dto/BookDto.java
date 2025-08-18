@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-@Builder
+@Builder(toBuilder = true)
 public class BookDto {
 
     @JsonProperty(access = JsonProperty.Access.READ_ONLY)
