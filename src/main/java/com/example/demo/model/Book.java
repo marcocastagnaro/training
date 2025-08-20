@@ -1,6 +1,7 @@
 package com.example.demo.model;
 
 import com.example.demo.dto.BookDto;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -30,6 +31,8 @@ public class Book {
     @Column(nullable = false)
     private String genre;
 
+
+    @JsonProperty("isAvailable")
     @Column(nullable = false)
     private boolean isAvailable;
 
