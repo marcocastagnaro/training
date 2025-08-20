@@ -3,15 +3,16 @@ package com.example.demo.controller;
 
 import com.example.demo.dto.BookDto;
 import com.example.demo.service.BookService;
+import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
+@CrossOrigin(origins = "http://localhost:5173")
 @RestController
-@RequestMapping("/api/book")
+@RequestMapping("/books")
 public class BookController {
     private final BookService bookService;
 
@@ -20,10 +21,30 @@ public class BookController {
     }
 
     @PostMapping
-    public ResponseEntity<String> create_book(@RequestBody BookDto createBookRequest) {
-        this.bookService.createBook(createBookRequest);
-        return ResponseEntity.status(HttpStatus.CREATED).body("Se ha creado el libro correctamente");
+    public ResponseEntity<BookDto> create_book(@Valid @RequestBody BookDto createBookRequest) {
+        BookDto created = bookService.createBook(createBookRequest);
+        return ResponseEntity.status(HttpStatus.CREATED).body(created);
+    } // Lo scambie porque me parece mas informativo y facil de usar en el front, en vez de mandar solo string.
+
+    @GetMapping
+    public List<BookDto> getAllBooks() {
+        return bookService.findAllBooks();
     }
 
+    @GetMapping("/{id}")
+    public BookDto getBookById(@PathVariable Long id) {
+        return bookService.findBookById(id);
+    }
+
+    @PutMapping("/{id}/available")
+    public BookDto toggleAvailable(@PathVariable Long id) {
+        return bookService.toggleAvailability(id);
+    }
+
+    @DeleteMapping("/{id}")
+    @ResponseStatus(HttpStatus.NO_CONTENT) // Por defecto pq el body va vacio.
+    public void deleteBookById(@PathVariable Long id) {
+        bookService.deleteBook(id);
+    }
 
 }
