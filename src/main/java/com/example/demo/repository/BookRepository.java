@@ -5,6 +5,12 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface BookRepository extends JpaRepository<Book,Integer> {
+public interface BookRepository extends JpaRepository<Book,Long> {
+  // Spring Data genera el query automáticamente
+  boolean existsByTitleIgnoreCaseAndAuthorIgnoreCaseAndPublicationYear(
+      String title,
+      String author,
+      Long publicationYear
+  );
 
 }

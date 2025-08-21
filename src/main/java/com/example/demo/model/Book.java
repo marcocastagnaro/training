@@ -1,6 +1,8 @@
 package com.example.demo.model;
 
 import com.example.demo.dto.BookDto;
+import com.example.demo.dto.CreateBookDto;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -14,9 +16,9 @@ import lombok.NoArgsConstructor;
 @Data
 public class Book {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+  @Id
+  @GeneratedValue(strategy = GenerationType.AUTO)
+  private Long id;
 
     @Column(nullable = false)
     private String title;
@@ -30,6 +32,7 @@ public class Book {
     @Column(nullable = false)
     private String genre;
 
+    @JsonProperty("is_available")
     @Column(nullable = false)
     private boolean isAvailable;
 
@@ -50,5 +53,17 @@ public class Book {
             .pages(createBookRequest.getPages())
             .build();
     }
+
+  public static Book from(CreateBookDto createBookRequest) {
+    return Book.builder()
+        .title(createBookRequest.getTitle())
+        .author(createBookRequest.getAuthor())
+        .publicationYear(Long.valueOf(createBookRequest.getPublicationYear()))
+        .genre(createBookRequest.getGenre())
+        .isAvailable(createBookRequest.getIsAvailable())
+        .language(createBookRequest.getLanguage())
+        .pages(createBookRequest.getPages())
+        .build();
+  }
 
 }
