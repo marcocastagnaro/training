@@ -21,6 +21,8 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("org.projectlombok:lombok")
+	implementation("org.springframework.boot:spring-boot-starter-validation")
+    implementation("com.fasterxml.jackson.core:jackson-databind")
 	annotationProcessor("org.projectlombok:lombok")
 	testImplementation("com.h2database:h2")
 	runtimeOnly("org.postgresql:postgresql")
